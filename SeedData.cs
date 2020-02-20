@@ -865,6 +865,22 @@ namespace IndyBooks
                 Price = 30.00M,
                 Year = "1994"
             });
+            context.Books.Add(new Book
+            {
+                Title = "abc",
+                Author = "Denise",
+                Edition = "1",
+                Price = 30.00M,
+                Year = "1994"
+            });
+            context.Books.Add(new Book
+            {
+                Title = "ghi",
+                Author = "Alain",
+                Edition = "1",
+                Price = 30.00M,
+                Year = "1994"
+            });
 
 
             await context.SaveChangesAsync();
